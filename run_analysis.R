@@ -81,7 +81,6 @@ head(cld_data[,c(1:4)]) ## first 5 columns
 
 cld_data <- data.table(cld_data)
 tidy_data <- cld_data[, lapply(.SD, mean), by = 'SubjectID,Activity'] 
-dim(tidy_data)
 
 write.table(tidy_data, file = "Tidy.txt", row.names = FALSE)
 
