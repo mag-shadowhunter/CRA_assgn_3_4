@@ -36,10 +36,10 @@ The file run_analysis.R is a script that performs data preparation and the 5 ste
 5.	Uses descriptive activity names to name the activities in the data set
         o	Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the activities variable
 
-6.	Appropriately labels the data set with descriptive variable names
+6.	Labels the data set with descriptive variable names
         o	Updated column names for new dataset
 
 
-7.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+7.	Creates a second, independent tidy data set with the average of each variable for each activity and each subject
         o	Cleaned data (cld_data) is created by sumarizing TidyData after being groupped by subject and activity.
         o	Export Tidy Data into Tidy.txt file.
